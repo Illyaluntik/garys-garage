@@ -1,7 +1,7 @@
 {
   "name": "my-project",
   "version": "0.1.0",
-  "homepage": "https://github.com/Illyaluntik/garys-garage",
+  "homepage": "https://Illyaluntik.github.io/garys-garage",
   "private": true,
   "scripts": {
     "dev": "next dev",
