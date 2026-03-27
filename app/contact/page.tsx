@@ -44,7 +44,7 @@ export default function ContactPage() {
                 {/* Phone - Primary */}
                 <div className="mb-8 p-6 rounded-lg border border-primary bg-primary/5">
                   <div className="flex items-start gap-4">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-primary text-primary-foreground">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-primary text-primary-foreground shrink-0">
                       <Phone className="h-6 w-6" />
                     </div>
                     <div>

@@ -9,7 +9,7 @@ import { phoneFormatted, phoneRaw } from "@/constants/contact-info.const"
 import { withBasePath } from "@/lib/basePath"
 
 const navigation = [
-  { name: "Heavy Towing", href: "/garys-garage/services/towing" },
+  { name: "Heavy Towing", href: "/services/towing" },
   { name: "Heavy Hauling", href: "/services/hauling" },
   { name: "Heavy Repair", href: "/services/repair" },
   { name: "Tires", href: "/services/tires" },
@@ -28,7 +28,7 @@ export function Header() {
         <div className="flex-shrink-0">
           <Link href="/" className="block">
             <Image
-              src={"/garys-garage/images/logo.svg"}
+              src={withBasePath("/images/logo.svg")}
               alt="Gary's Garage - Heavy Duty Towing & Recovery"
               width={160}
               height={74}
@@ -90,7 +90,7 @@ export function Header() {
             >
               Home
             </Link>
-            
+
             {navigation.map((item) => (
               <Link
                 key={item.name}
@@ -101,7 +101,7 @@ export function Header() {
                 {item.name}
               </Link>
             ))}
-            
+
             <div className="pt-4">
               <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-bold uppercase tracking-wide">
                 <a href={`tel:${phoneRaw}`} className="flex items-center justify-center gap-2">

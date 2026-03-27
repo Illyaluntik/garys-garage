@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from 'next'
 import { Oswald, Inter } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import { StructuredData } from '@/components/structured-data'
 import { withBasePath } from '@/lib/basePath'
 import './globals.css'
@@ -90,7 +89,6 @@ export default function RootLayout({
       </head>
       <body className={`${oswald.variable} ${inter.variable} font-sans antialiased`}>
         {children}
-        <Analytics />
       </body>
     </html>
   )
