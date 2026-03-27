@@ -8,8 +8,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? '/garys-garage' : '',
-  assetPrefix: isProd ? '/garys-garage/' : '',
+  // basePath: isProd ? '/garys-garage' : '',
+  // assetPrefix: isProd ? '/garys-garage/' : '',
+  basePath: '/garys-garage',
+  assetPrefix: '/garys-garage/',
   trailingSlash: true,
 }
 
