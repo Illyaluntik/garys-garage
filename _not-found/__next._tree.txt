@@ -1,3 +1,3 @@
 :HL["/garys-garage/_next/static/chunks/0de4hec4qk8-3.css","style"]
 :HL["/garys-garage/_next/static/chunks/0hsn4pjzou597.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"hYCJbcNPaU95eLwfwFipH"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"C341qZ0IYGgm061zB1byb"}
