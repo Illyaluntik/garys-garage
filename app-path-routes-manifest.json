@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/page": "/",
+  "/services/hauling/page": "/services/hauling",
+  "/services/page": "/services",
+  "/services/repair/page": "/services/repair",
+  "/services/road-service/page": "/services/road-service",
+  "/services/tires/page": "/services/tires",
+  "/services/towing/page": "/services/towing"
+}

@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/page": "app/page.js",
+  "/services/hauling/page": "app/services/hauling/page.js",
+  "/services/page": "app/services/page.js",
+  "/services/repair/page": "app/services/repair/page.js",
+  "/services/road-service/page": "app/services/road-service/page.js",
+  "/services/tires/page": "app/services/tires/page.js",
+  "/services/towing/page": "app/services/towing/page.js"
+}

@@ -1,0 +1,148 @@
+[
+  {
+    "route": "/",
+    "firstLoadUncompressedJsBytes": 636768,
+    "firstLoadChunkPaths": [
+      "build/static/chunks/0iwz~d34oj_si.js",
+      "build/static/chunks/0d3shmwh5_nmn.js",
+      "build/static/chunks/0o.kepyvl0ny~.js",
+      "build/static/chunks/01ao0678ezxk7.js",
+      "build/static/chunks/0-l.0~n2ieesk.js",
+      "build/static/chunks/0pqt~8bl3ukh4.js",
+      "build/static/chunks/0~ioobwaegd50.js",
+      "build/static/chunks/0ahh58o5_iqlb.js",
+      "build/static/chunks/turbopack-0329t88vmw1sm.js"
+    ]
+  },
+  {
+    "route": "/services/hauling",
+    "firstLoadUncompressedJsBytes": 636768,
+    "firstLoadChunkPaths": [
+      "build/static/chunks/0iwz~d34oj_si.js",
+      "build/static/chunks/0d3shmwh5_nmn.js",
+      "build/static/chunks/0o.kepyvl0ny~.js",
+      "build/static/chunks/01ao0678ezxk7.js",
+      "build/static/chunks/0-l.0~n2ieesk.js",
+      "build/static/chunks/0pqt~8bl3ukh4.js",
+      "build/static/chunks/0~ioobwaegd50.js",
+      "build/static/chunks/0ahh58o5_iqlb.js",
+      "build/static/chunks/turbopack-0329t88vmw1sm.js"
+    ]
+  },
+  {
+    "route": "/services/repair",
+    "firstLoadUncompressedJsBytes": 636768,
+    "firstLoadChunkPaths": [
+      "build/static/chunks/0iwz~d34oj_si.js",
+      "build/static/chunks/0d3shmwh5_nmn.js",
+      "build/static/chunks/0o.kepyvl0ny~.js",
+      "build/static/chunks/01ao0678ezxk7.js",
+      "build/static/chunks/0-l.0~n2ieesk.js",
+      "build/static/chunks/0pqt~8bl3ukh4.js",
+      "build/static/chunks/0~ioobwaegd50.js",
+      "build/static/chunks/0ahh58o5_iqlb.js",
+      "build/static/chunks/turbopack-0329t88vmw1sm.js"
+    ]
+  },
+  {
+    "route": "/services/road-service",
+    "firstLoadUncompressedJsBytes": 636768,
+    "firstLoadChunkPaths": [
+      "build/static/chunks/0iwz~d34oj_si.js",
+      "build/static/chunks/0d3shmwh5_nmn.js",
+      "build/static/chunks/0o.kepyvl0ny~.js",
+      "build/static/chunks/01ao0678ezxk7.js",
+      "build/static/chunks/0-l.0~n2ieesk.js",
+      "build/static/chunks/0pqt~8bl3ukh4.js",
+      "build/static/chunks/0~ioobwaegd50.js",
+      "build/static/chunks/0ahh58o5_iqlb.js",
+      "build/static/chunks/turbopack-0329t88vmw1sm.js"
+    ]
+  },
+  {
+    "route": "/services/tires",
+    "firstLoadUncompressedJsBytes": 636768,
+    "firstLoadChunkPaths": [
+      "build/static/chunks/0iwz~d34oj_si.js",
+      "build/static/chunks/0d3shmwh5_nmn.js",
+      "build/static/chunks/0o.kepyvl0ny~.js",
+      "build/static/chunks/01ao0678ezxk7.js",
+      "build/static/chunks/0-l.0~n2ieesk.js",
+      "build/static/chunks/0pqt~8bl3ukh4.js",
+      "build/static/chunks/0~ioobwaegd50.js",
+      "build/static/chunks/0ahh58o5_iqlb.js",
+      "build/static/chunks/turbopack-0329t88vmw1sm.js"
+    ]
+  },
+  {
+    "route": "/services/towing",
+    "firstLoadUncompressedJsBytes": 636768,
+    "firstLoadChunkPaths": [
+      "build/static/chunks/0iwz~d34oj_si.js",
+      "build/static/chunks/0d3shmwh5_nmn.js",
+      "build/static/chunks/0o.kepyvl0ny~.js",
+      "build/static/chunks/01ao0678ezxk7.js",
+      "build/static/chunks/0-l.0~n2ieesk.js",
+      "build/static/chunks/0pqt~8bl3ukh4.js",
+      "build/static/chunks/0~ioobwaegd50.js",
+      "build/static/chunks/0ahh58o5_iqlb.js",
+      "build/static/chunks/turbopack-0329t88vmw1sm.js"
+    ]
+  },
+  {
+    "route": "/contact",
+    "firstLoadUncompressedJsBytes": 578691,
+    "firstLoadChunkPaths": [
+      "build/static/chunks/0iwz~d34oj_si.js",
+      "build/static/chunks/0d3shmwh5_nmn.js",
+      "build/static/chunks/0p19xcem1shde.js",
+      "build/static/chunks/01ao0678ezxk7.js",
+      "build/static/chunks/0-l.0~n2ieesk.js",
+      "build/static/chunks/0pqt~8bl3ukh4.js",
+      "build/static/chunks/0~ioobwaegd50.js",
+      "build/static/chunks/0ahh58o5_iqlb.js",
+      "build/static/chunks/turbopack-0329t88vmw1sm.js"
+    ]
+  },
+  {
+    "route": "/about",
+    "firstLoadUncompressedJsBytes": 573511,
+    "firstLoadChunkPaths": [
+      "build/static/chunks/0iwz~d34oj_si.js",
+      "build/static/chunks/0d3shmwh5_nmn.js",
+      "build/static/chunks/01tk-pu_y2ozm.js",
+      "build/static/chunks/0-l.0~n2ieesk.js",
+      "build/static/chunks/0pqt~8bl3ukh4.js",
+      "build/static/chunks/0~ioobwaegd50.js",
+      "build/static/chunks/0ahh58o5_iqlb.js",
+      "build/static/chunks/turbopack-0329t88vmw1sm.js"
+    ]
+  },
+  {
+    "route": "/services",
+    "firstLoadUncompressedJsBytes": 573511,
+    "firstLoadChunkPaths": [
+      "build/static/chunks/0iwz~d34oj_si.js",
+      "build/static/chunks/0d3shmwh5_nmn.js",
+      "build/static/chunks/01ao0678ezxk7.js",
+      "build/static/chunks/0-l.0~n2ieesk.js",
+      "build/static/chunks/0pqt~8bl3ukh4.js",
+      "build/static/chunks/0~ioobwaegd50.js",
+      "build/static/chunks/0ahh58o5_iqlb.js",
+      "build/static/chunks/turbopack-0329t88vmw1sm.js"
+    ]
+  },
+  {
+    "route": "/_not-found",
+    "firstLoadUncompressedJsBytes": 516723,
+    "firstLoadChunkPaths": [
+      "build/static/chunks/0iwz~d34oj_si.js",
+      "build/static/chunks/0d3shmwh5_nmn.js",
+      "build/static/chunks/0-l.0~n2ieesk.js",
+      "build/static/chunks/0pqt~8bl3ukh4.js",
+      "build/static/chunks/0~ioobwaegd50.js",
+      "build/static/chunks/0ahh58o5_iqlb.js",
+      "build/static/chunks/turbopack-0329t88vmw1sm.js"
+    ]
+  }
+]
