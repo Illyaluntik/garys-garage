@@ -1,12 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/garys-garage',
   typescript: {
     ignoreBuildErrors: true,
   },
   images: {
     unoptimized: true,
   },
-  distDir: 'build'
 }
 
 export default nextConfig
