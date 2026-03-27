@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Header, MobileCallButton } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ServicePageTemplate } from "@/components/service-page-template"
+import { withBasePath } from "@/lib/basePath"
 
 export const metadata: Metadata = {
   title: "Heavy Repair | Gary's Garage - Albany, NY",
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
 const serviceData = {
   title: "Heavy Repair",
   description: "Our experienced technicians handle all aspects of heavy truck repair. From engine diagnostics to complete overhauls, we get your equipment running right—in our shop or at your location.",
-  heroImage: "/images/service-repair.jpg",
+  heroImage: withBasePath("/images/service-repair.jpg"),
   capabilities: [
     "Diesel engine repair & overhaul",
     "Transmission service & repair",
@@ -39,9 +40,9 @@ const serviceData = {
     "DOT compliance needs",
   ],
   images: [
-    { src: "/images/service-repair.jpg", alt: "Mechanic working on truck engine" },
-    { src: "/images/service-roadside.jpg", alt: "Mobile repair service" },
-    { src: "/images1/service-repair-1.jpg", alt: "Repair shop" },
+    { src: withBasePath("/images/service-repair.jpg"), alt: "Mechanic working on truck engine" },
+    { src: withBasePath("/images/service-roadside.jpg"), alt: "Mobile repair service" },
+    { src: withBasePath("/images1/service-repair-1.jpg"), alt: "Repair shop" },
   ],
 }
 

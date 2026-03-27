@@ -1,28 +1,29 @@
 import Image from "next/image"
+import { withBasePath } from "@/lib/basePath"
 
 const images = [
   {
-    src: "/images1/gallery-1.jpg",
+    src: withBasePath("/images1/gallery-1.jpg"),
     alt: "Heavy duty tow truck fleet",
   },
   {
-    src: "/images1/gallery-3.jpg",
+    src: withBasePath("/images1/gallery-3.jpg"),
     alt: "Heavy equipment hauling",
   },
   {
-    src: "/images1/service-repair-1.jpg",
+    src: withBasePath("/images1/service-repair-1.jpg"),
     alt: "Semi truck recovery operation",
   },
   {
-    src: "/images1/service-roadside.jpg",
+    src: withBasePath("/images1/service-roadside.jpg"),
     alt: "Emergency roadside service",
   },
   {
-    src: "/images1/service-hauling-3.jpg",
+    src: withBasePath("/images1/service-hauling-3.jpg"),
     alt: "Truck engine repair",
   },
   {
-    src: "/images1/gallery-5.jpg",
+    src: withBasePath("/images1/gallery-5.jpg"),
     alt: "Rotator tow truck in action",
   },
 ]

@@ -4,6 +4,7 @@ import { Header, MobileCallButton } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { CTABanner } from "@/components/cta-banner"
 import { Shield, Clock, MapPin, Truck, Users, Award } from "lucide-react"
+import { withBasePath } from "@/lib/basePath"
 
 export const metadata: Metadata = {
   title: "About | Gary's Garage - Heavy Duty Specialists Since Day One",
@@ -72,7 +73,7 @@ export default function AboutPage() {
               </div>
               <div className="relative h-80 lg:h-[500px] rounded-lg overflow-hidden border border-border">
                 <Image
-                  src="/images1/service-repair-1.jpg"
+                  src={withBasePath('/images1/service-repair-1.jpg')}
                   alt="Gary's Garage tow truck fleet"
                   fill
                   className="object-cover"

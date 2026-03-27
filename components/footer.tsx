@@ -3,6 +3,7 @@ import { Phone, MapPin, Clock } from "lucide-react"
 import { serviceAreaLocations } from "@/constants/service-areas.const"
 import { phoneFormatted, phoneRaw } from "@/constants/contact-info.const"
 import Image from "next/image"
+import { withBasePath } from "@/lib/basePath"
 
 const services = [
   { name: "Heavy Duty Towing", href: "/services/towing" },
@@ -25,17 +26,10 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
           {/* Brand */}
           <div className="lg:col-span-1">
-            {/* <Link href="/" className="inline-block">
-              <span className="font-sans text-2xl font-bold uppercase tracking-tight text-foreground">
-                Gary&apos;s <span className="text-primary">Garage</span>
-              </span>
-            </Link> */}
             <Link href="/" className="w-full min-h-[70px] block relative">
               <Image
-                src="/images/logo.svg"
+                src={withBasePath("/images/logo.svg")}
                 alt="Gary's Garage - Heavy Duty Towing & Recovery"
-                // width={119}
-                // height={55}
                 fill
                 className="h-auto w-full"
                 priority

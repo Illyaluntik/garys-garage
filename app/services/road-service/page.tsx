@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Header, MobileCallButton } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ServicePageTemplate } from "@/components/service-page-template"
+import { withBasePath } from "@/lib/basePath"
 
 export const metadata: Metadata = {
   title: "Road Service | Gary's Garage - 24/7 Roadside Assistance",
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
 const serviceData = {
   title: "Road Service",
   description: "Stranded on the side of the road? Our mobile service units are dispatched around the clock to get you moving again. Fast response, professional service, any time of day or night.",
-  heroImage: "/images1/service-roadside.jpg",
+  heroImage: withBasePath("/images1/service-roadside.jpg"),
   capabilities: [
     "Jump starts & battery service",
     "Lockouts & key service",
@@ -39,9 +40,9 @@ const serviceData = {
     "Any roadside emergency",
   ],
   images: [
-    { src: "/images1/service-roadside.jpg", alt: "Emergency roadside assistance" },
-    { src: "/images1/service-roadside-1.jpg", alt: "Mobile repair service" },
-    { src: "/images1/service-roadside-2.jpg", alt: "Road service in action" },
+    { src: withBasePath("/images1/service-roadside.jpg"), alt: "Emergency roadside assistance" },
+    { src: withBasePath("/images1/service-roadside-1.jpg"), alt: "Mobile repair service" },
+    { src: withBasePath("/images1/service-roadside-2.jpg"), alt: "Road service in action" },
   ],
 }
 

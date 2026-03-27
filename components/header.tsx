@@ -6,6 +6,7 @@ import Image from "next/image"
 import { Phone, Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { phoneFormatted, phoneRaw } from "@/constants/contact-info.const"
+import { withBasePath } from "@/lib/basePath"
 
 const navigation = [
   { name: "Heavy Towing", href: "/services/towing" },
@@ -27,7 +28,7 @@ export function Header() {
         <div className="flex-shrink-0">
           <Link href="/" className="block">
             <Image
-              src="/images/logo.svg"
+              src={withBasePath("/images/logo.svg")}
               alt="Gary's Garage - Heavy Duty Towing & Recovery"
               width={160}
               height={74}

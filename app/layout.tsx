@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Oswald, Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { StructuredData } from '@/components/structured-data'
+import { withBasePath } from '@/lib/basePath'
 import './globals.css'
 
 const oswald = Oswald({ 
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/hero-tow-truck.jpg',
+        url: withBasePath('/images/hero-tow-truck.jpg'),
         width: 1200,
         height: 630,
         alt: "Gary's Garage Heavy Duty Towing"
@@ -47,7 +48,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Gary's Garage | Heavy Duty Towing & Recovery",
     description: "24/7 Heavy Duty Towing, Hauling, Repair & Roadside Service in the Northeast.",
-    images: ['/images/hero-tow-truck.jpg'],
+    images: [withBasePath('/images/hero-tow-truck.jpg')],
   },
   robots: {
     index: true,
@@ -63,11 +64,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/images/logo.svg',
+        url: withBasePath('/images/logo.svg'),
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: withBasePath('/apple-icon.png'),
   },
 }
 

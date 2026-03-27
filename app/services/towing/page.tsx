@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Header, MobileCallButton } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ServicePageTemplate } from "@/components/service-page-template"
+import { withBasePath } from "@/lib/basePath"
 
 export const metadata: Metadata = {
   title: "Heavy Duty Towing | Gary's Garage - Albany, NY",
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
 const serviceData = {
   title: "Heavy Duty Towing",
   description: "When your heavy equipment breaks down or needs to be moved, our fleet of heavy wreckers and rotators is ready. We handle the biggest towing jobs in the Northeast with speed and precision.",
-  heroImage: "/images1/service-towing.jpg",
+  heroImage: withBasePath("/images1/service-towing.jpg"),
   capabilities: [
     "Semi trucks & tractor-trailers",
     "Buses & RVs",
@@ -39,9 +40,9 @@ const serviceData = {
     "Any heavy-duty towing emergency",
   ],
   images: [
-    { src: "/images1/service-towing-1.jpg", alt: "Heavy duty rotator tow truck" },
-    { src: "/images1/service-towing-2.jpg", alt: "Semi truck recovery" },
-    { src: "/images1/service-towing.jpg", alt: "Tow truck fleet" },
+    { src: withBasePath("/images1/service-towing-1.jpg"), alt: "Heavy duty rotator tow truck" },
+    { src: withBasePath("/images1/service-towing-2.jpg"), alt: "Semi truck recovery" },
+    { src: withBasePath("/images1/service-towing.jpg"), alt: "Tow truck fleet" },
   ],
 }
 

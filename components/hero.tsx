@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Phone, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { phoneRaw } from "@/constants/contact-info.const"
+import { withBasePath } from "@/lib/basePath"
 
 export function Hero() {
   return (
@@ -10,7 +11,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images1/hero-tow-truck.jpg"
+          src={withBasePath("/images1/hero-tow-truck.jpg")}
           alt="Heavy duty tow truck hauling semi at night"
           fill
           className="object-cover"

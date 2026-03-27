@@ -1,41 +1,42 @@
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight, Truck, Container, Wrench, AlertTriangle, CircleDot } from "lucide-react"
+import { withBasePath } from "@/lib/basePath"
 
 const services = [
   {
     title: "Heavy Duty Towing",
     description: "Semi trucks, trailers, buses, and heavy equipment recovery. Rotator and heavy wrecker service.",
     href: "/services/towing",
-    image: "/images1/service-towing.jpg",
+    image: withBasePath("/images1/service-towing.jpg"),
     icon: Truck,
   },
   {
     title: "Heavy Hauling",
     description: "Flatbed and lowboy hauling for construction equipment, machinery, and oversized loads.",
     href: "/services/hauling",
-    image: "/images1/service-hauling.jpg",
+    image: withBasePath("/images1/service-hauling.jpg"),
     icon: Container,
   },
   {
     title: "Heavy Repair",
     description: "On-site and shop repair for diesel engines, transmissions, brakes, and electrical systems.",
     href: "/services/repair",
-    image: "/images/service-repair.jpg",
+    image: withBasePath("/images/service-repair.jpg"),
     icon: Wrench,
   },
   {
     title: "Road Service",
     description: "24/7 emergency roadside assistance. Jump starts, lockouts, fuel delivery, and more.",
     href: "/services/road-service",
-    image: "/images1/service-roadside.jpg",
+    image: withBasePath("/images1/service-roadside.jpg"),
     icon: AlertTriangle,
   },
   {
     title: "Tires",
     description: "Commercial truck tire sales, service, and emergency tire repair. All major brands available.",
     href: "/services/tires",
-    image: "/images/service-tires.jpg",
+    image: withBasePath("/images/service-tires.jpg"),
     icon: CircleDot,
   },
 ]

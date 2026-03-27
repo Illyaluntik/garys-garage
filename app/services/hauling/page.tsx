@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Header, MobileCallButton } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ServicePageTemplate } from "@/components/service-page-template"
+import { withBasePath } from "@/lib/basePath"
 
 export const metadata: Metadata = {
   title: "Heavy Hauling | Gary's Garage - Albany, NY",
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
 const serviceData = {
   title: "Heavy Hauling",
   description: "Need to move heavy equipment or oversized loads? Our flatbed and lowboy trailers can handle it. From local transport to cross-country hauling, we deliver safely and on time.",
-  heroImage: "/images1/service-hauling.jpg",
+  heroImage: withBasePath("/images1/service-hauling.jpg"),
   capabilities: [
     "Flatbed hauling",
     "Lowboy transport",
@@ -39,9 +40,9 @@ const serviceData = {
     "Long-distance heavy hauling",
   ],
   images: [
-    { src: "/images1/service-hauling-1.jpg", alt: "Flatbed hauling heavy equipment" },
-    { src: "/images1/service-hauling-2.jpg", alt: "Equipment loading on lowboy" },
-    { src: "/images1/service-hauling-3.jpg", alt: "Heavy hauling fleet" },
+    { src: withBasePath("/images1/service-hauling-1.jpg"), alt: "Flatbed hauling heavy equipment" },
+    { src: withBasePath("/images1/service-hauling-2.jpg"), alt: "Equipment loading on lowboy" },
+    { src: withBasePath("/images1/service-hauling-3.jpg"), alt: "Heavy hauling fleet" },
   ],
 }
 
